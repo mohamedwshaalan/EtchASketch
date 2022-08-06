@@ -4,7 +4,7 @@ body {
   padding: 0px;
   margin: 0px;
   background-color: rgb(239, 235, 220);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Silkscreen', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -80,24 +80,91 @@ body {
   background-color: crimson;
 }
 
-.colorpick button {
-  text-align: center;
-  width: 80px;
-  height: 40px;
-
+.colorpick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 
-.sizepick {
+.colorpickerdiv {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.sizepick button {
+.colorpickdiv,
+p {
+  font-size: larger;
+}
 
+.sizepick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.sizepick button:hover {
+  background-color: aquamarine;
+  color: black;
+  border-color: white;
+
+}
+
+.sizepick button:active {
+  background-color: black;
+  color: aquamarine;
+  border-color: white;
+
+}
+
+button {
+  font-family: 'Silkscreen', sans-serif;
+  font-size: larger;
+  background-color: yellow;
+  border-radius: 10px;
   text-align: center;
-  width: 80px;
-  height: 30px;
-  margin: 5px;
+  width: 120px;
+  height: 40px;
+  border: 2px black solid;
+}
+
+#black-button:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+#black-button:active {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+#eraser:hover {
+  background-color: grey;
+  color: white;
+  border-color: black;
+}
+
+#eraser:active {
+  background-color: white;
+  color: grey;
+  border-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  height: 20px;
+  width: auto;
+
 }
