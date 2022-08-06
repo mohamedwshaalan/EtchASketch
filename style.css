@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('http://fonts.cdnfonts.com/css/silkscreen');
+
 body {
   height: 982px;
   width: 1920px;
   padding: 0px;
   margin: 0px;
   background-color: rgb(239, 235, 220);
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Silkscreen', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -122,7 +123,7 @@ p {
 }
 
 button {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Silkscreen', sans-serif;
   font-size: larger;
   background-color: yellow;
   border-radius: 10px;
