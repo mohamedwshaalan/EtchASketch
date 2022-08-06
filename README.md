@@ -16,6 +16,6 @@ To-Do:
 ======
 1) Add grey scale (shading) button
 
-2 )Add rainbow (random) color button
+2) Add rainbow (random) color button
 
 Maybe: 3) Specific canvas size selector
