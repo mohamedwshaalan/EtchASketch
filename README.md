@@ -2,8 +2,8 @@
 Etch-A-Sketch project for the The Odin Project
 
 
-Live preview @: 
-
+Live preview @: https://mohamedwshaalan.github.io/EtchASketch/
+ 
 Learned:
 ========
 1) DOM Manipulaion
