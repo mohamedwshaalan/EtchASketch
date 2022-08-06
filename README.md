@@ -18,4 +18,4 @@ To-Do:
 
 2) Add rainbow (random) color button
 
-Maybe: 3) Specific canvas size selector
+3) Specific canvas size selector
