@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Etch-A-Sketch</title>
   <link rel="stylesheet" href="style.css">
+  <link href="http://fonts.cdnfonts.com/css/silkscreen" rel="stylesheet">
   <script src="javascript.js" defer></script>
 </head>
 
@@ -23,18 +24,24 @@
       </div>
       <div class="lower">
         <div class="colorpick">
-          <button class="color-button">Black</button>
-          <button class="color-button">Color</button>
+          <button id="eraser">Eraser</button>
+          <button id="black-button">Black</button>
+          <div class="colorpickerdiv">
+            <p> Choose a color</p>
+            <input type="color" id="colorpicker">
+          </div>
+
         </div>
         <div class="sizepick">
-          <button>Small</button>
-          <button>Medium</button>
-          <button>Large</button>
+          <button id="smallbutton">Small</button>
+          <button id="mediumbutton">Medium</button>
+          <button id="largebutton">Large</button>
         </div>
       </div>
     </div>
   </div>
-  <footer>Made by <a href="https://github.com/mohamedwshaalan">mohamedwshaalan<a></footer>
+  <footer>Made by <a href="https://github.com/mohamedwshaalan">mohamedwshaalan<a> <img src="githubicon.png" alt="">
+  </footer>
 </body>
 
 </html>
