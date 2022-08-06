@@ -6,7 +6,7 @@ body {
   padding: 0px;
   margin: 0px;
   background-color: rgb(239, 235, 220);
-  font-family: 'Silkscreen', sans-serif;
+  font-family: 'VT323', monospace;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -123,7 +123,7 @@ p {
 }
 
 button {
-  font-family: 'Silkscreen', sans-serif;
+  font-family: 'VT323', monospace;
   font-size: larger;
   background-color: yellow;
   border-radius: 10px;
