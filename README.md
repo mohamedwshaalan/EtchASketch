@@ -1,5 +1,5 @@
 # EtchASketch
-Etch-A-Sketch project for the The Odin Project
+Etch-A-Sketch project
 
 
 Live preview @: https://mohamedwshaalan.github.io/EtchASketch/
